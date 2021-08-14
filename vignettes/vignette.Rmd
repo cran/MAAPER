@@ -5,7 +5,7 @@ date: "`r Sys.Date()`"
 #output: rmarkdown::github_document
 output: rmarkdown::html_vignette
 vignette: >
-  %\VignetteIndexEntry{scLink: MAAPER: Model-based analysis of alternative polyadenylation using 3' end-linked reads}
+  %\VignetteIndexEntry{MAAPER: Model-based analysis of alternative polyadenylation using 3' end-linked reads}
   %\VignetteEngine{knitr::rmarkdown}
   %\VignetteEncoding{UTF-8}
 ---
@@ -42,7 +42,7 @@ maaper(gtf, # full path of the GTF file
        output_dir = "./", # output directory
        bam_c1, bam_c2, # full path of the BAM files
        read_len = 76, # read length
-       ncores = 12,  # number of cores used for parallel computation 
+       ncores = 12  # number of cores used for parallel computation 
       )
 ```
 
